@@ -14,7 +14,7 @@ public class Sum_of_3_number {
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
 			Sum_of_3_number s = new Sum_of_3_number(10,12,15,17);
-			System.out.println("Sum of four number : "+(x+y+z+a));
+			System.out.println("Product of four number : "+(x*y*z*a));
 
 		}
 
