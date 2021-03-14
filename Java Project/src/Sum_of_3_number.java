@@ -1,20 +1,22 @@
+package rajatb;
 
-public class Product_of_3_number {
+public class Sum_of_3_number {
 
-	static int x,y,z;
-	public Product_of_3_number(int x,int y,int z) {
-		// TODO Auto-generated constructor stub
-		// hello World
-		this.x=x;
-		this.y=y;
-		this.z=z;
-	}
+		static int x,y,z,a;
+		public Sum_of_3_number(int x,int y,int z,int a) {
+			// TODO Auto-generated constructor stub
+			this.x=x;
+			this.y=y;
+			this.z=z;
+			this.a=a;
+		}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Product_of_3_number s = new Product_of_3_number(10,12,15);
-		System.out.println("Product of three number : "+(x*y*z));
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			Sum_of_3_number s = new Sum_of_3_number(10,12,15,17);
+			System.out.println("Sum of four number : "+(x+y+z+a));
 
-	}
+		}
 
+	
 }
