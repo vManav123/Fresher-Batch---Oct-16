@@ -1,8 +1,8 @@
 
-public class Sum_of_3_number {
+public class Product_of_3_number {
 
 	static int x,y,z;
-	public Sum_of_3_number(int x,int y,int z) {
+	public Product_of_3_number(int x,int y,int z) {
 		// TODO Auto-generated constructor stub
 		// hello World
 		this.x=x;
@@ -12,8 +12,8 @@ public class Sum_of_3_number {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Sum_of_3_number s = new Sum_of_3_number(10,12,15);
-		System.out.println("Sum of three number : "+(x+y+z));
+		Product_of_3_number s = new Product_of_3_number(10,12,15);
+		System.out.println("Product of three number : "+(x*y*z));
 
 	}
 
