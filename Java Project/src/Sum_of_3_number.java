@@ -4,6 +4,7 @@ public class Sum_of_3_number {
 	static int x,y,z;
 	public Sum_of_3_number(int x,int y,int z) {
 		// TODO Auto-generated constructor stub
+		// hello World
 		this.x=x;
 		this.y=y;
 		this.z=z;
